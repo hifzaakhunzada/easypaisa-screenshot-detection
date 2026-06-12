@@ -1,0 +1,11 @@
+1. Install Tesseract OCR "https://github.com/UB-Mannheim/tesseract/wiki".
+2. Install install python 3.11.9.
+3. After that we will create virtual environment for our project as it will be using an older version of python. Why???? because NumPy is not available for the new version STUPID :(
+4. To create virtual environment open terminal and type "py -3.11 -m venv venv".
+5. Then everytime you have to open the project you just need to type in the terminal "venv\Scripts\activate", this if for cmd(windows command prompt) for git use "source venv/Scripts/activate".
+6. Install dependencies "pip install -r requirements.txt". INSTALL THEM AFTER ACTIVATING THE VIRTUAL ENVIRONMENT!!
+7. To run the app you have to use other command as it is running on Steamline with UI on browser "streamlit run app.py".
+8. When done with the software just type "deactivate" and the venv will get deactivated./
+10. Ever time you want to do anything in this app like running it you have to activate the virtual environment using point 5.
+
+If any problem contact the author #MeOnTheGo #AladdenKaChiragh #ShutUp :)
